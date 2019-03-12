@@ -1,4 +1,6 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Tue Mar 12 09:57:50 CST 2019
+#Tue Mar 12 11:08:15 CST 2019
 swift-spring-boot-starter-1.0.0.jar>=
 swift-spring-boot-starter-1.0.0.pom>=
+swift-spring-boot-starter-1.0.0.jar>mvnrepo=
+swift-spring-boot-starter-1.0.0.pom>mvnrepo=
