@@ -9,9 +9,9 @@
         <module>spring-cloud-github-context</module>
         <module>spring-cloud-github-context-support</module>
         <module>spring-cloud-starter-github-sina</module>
+        <module>spring-cloud-starter-github-tencent</module>
+        <module>spring-cloud-starter-github-wechat</module>
         <module>spring-cloud-starter-lock</module>
-        <module>spring-cloud-starter-qq</module>
-        <module>spring-cloud-starter-weixin</module>
     </modules>
 
     <parent>
