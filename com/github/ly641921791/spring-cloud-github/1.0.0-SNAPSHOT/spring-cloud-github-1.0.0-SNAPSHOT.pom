@@ -5,9 +5,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
+        <module>spring-cloud-github-autoconfigure</module>
+        <module>spring-cloud-github-context</module>
+        <module>spring-cloud-github-context-support</module>
+        <module>spring-cloud-starter-github-sina</module>
         <module>spring-cloud-starter-lock</module>
         <module>spring-cloud-starter-qq</module>
-        <module>spring-cloud-starter-weibo</module>
         <module>spring-cloud-starter-weixin</module>
     </modules>
 
@@ -20,7 +23,7 @@
 
     <groupId>com.github.ly641921791</groupId>
     <artifactId>spring-cloud-github</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Spring Cloud Github</name>
 
@@ -52,6 +55,7 @@
         <slf4j-api.version>1.7.25</slf4j-api.version>
 
         <spring-cloud-alibaba.version>0.2.1.RELEASE</spring-cloud-alibaba.version>
+        <spring-cloud-github.version>1.0.0-SNAPSHOT</spring-cloud-github.version>
 
         <!-- Maven Plugin Versions -->
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
@@ -65,9 +69,19 @@
         <dependencies>
 
             <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>1.2.55</version>
+                <groupId>com.github.ly641921791</groupId>
+                <artifactId>spring-cloud-github-autoconfigure</artifactId>
+                <version>${spring-cloud-github.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.ly641921791</groupId>
+                <artifactId>spring-cloud-github-context</artifactId>
+                <version>${spring-cloud-github.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.ly641921791</groupId>
+                <artifactId>spring-cloud-github-context-support</artifactId>
+                <version>${spring-cloud-github.version}</version>
             </dependency>
 
             <!-- Spring Boot -->
