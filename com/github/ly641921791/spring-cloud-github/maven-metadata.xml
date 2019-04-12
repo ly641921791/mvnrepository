@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.ly641921791</groupId>
+  <artifactId>spring-cloud-github</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190412074834</lastUpdated>
+  </versioning>
+</metadata>

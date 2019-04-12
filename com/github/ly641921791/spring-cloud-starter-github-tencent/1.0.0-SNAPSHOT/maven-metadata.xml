@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.github.ly641921791</groupId>
+  <artifactId>spring-cloud-starter-github-tencent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20190412.074839</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20190412074839</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0-20190412.074839-1</value>
+        <updated>20190412074839</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20190412.074839-1</value>
+        <updated>20190412074839</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20190412.074839-1</value>
+        <updated>20190412074839</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
